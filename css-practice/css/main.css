@@ -1,0 +1,362 @@
+
+.header{
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+	padding: 12px;
+}
+.nav ul{
+	list-style: none;
+}
+.nav li{
+	margin: 0 14px;
+	position: relative;
+}
+.nav li a{
+	padding: 15px;
+	font-size: 22px;
+	color: aliceblue;
+	text-decoration: none;	
+	align-items: flex-end;
+}
+.sub-menu{
+	position: absolute;
+	width: 130px;
+	height: 0;
+	background: rgba(0,0,0,0.34);
+	text-align: left;
+	left: -13px;
+	display: none;
+	border-radius: 10px 10px 10px 10px;	
+}
+.sub-menu li{
+	padding: 4px 0;
+}
+.nav li:hover .sub-menu{
+	display: block;	
+	height: auto;
+}
+.nav li a:hover{
+color: #FFFFFF;
+background: rgba(255,255,255,0.00);
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #1F51FF, 0 0 30px #1F51FF, 0 0 40px #1F51FF, 0 0 55px #1F51FF, 0 0 75px #1F51FF;
+}
+.banner{
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.content{
+	position: absolute;
+	top: 330px;
+	left: 180px;
+	font-size: 30px;
+	color: aliceblue;
+	text-align: center;
+}
+.content h1{
+	text-shadow: 4px 4px 8px black;
+}
+.content p{
+	text-shadow: 4px 4px 8px black;
+	margin-bottom: 25px;
+}
+.content a{
+	text-shadow: 4px 4px 8px black;
+}
+.btn {
+	background: rgba(255,196,0,1.00);
+	text-decoration: none;
+	padding: 5px 32px;
+	border-radius: 5px 5px 5px 5px;
+}
+.btn:hover {
+	background: white;
+	color: blue;
+}
+.about{
+	height: auto;
+	position: relative;
+	color: aliceblue;
+	text-shadow: 4px 4px 8px black;
+}
+.section-1{
+	background-image: url( "../image/honkai-impact-bronya-zaychik-5k-2m-1280x720.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.box-1{
+	top: 290px;
+	left: 250px;
+	font-size: 50px;
+	text-align:left;
+	position: absolute;
+}
+.box-2{
+	top: 150px;
+	right: 250px;
+	width: 400px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+}
+.content-mihoyo img{
+	background-image: url("../image/2320014984.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	margin-left: -20px;
+	margin-top: -30px;
+	border-radius: 10px 10px 0px 0px;
+}
+.content-mihoyo h2{
+	margin-top: 25px;
+}
+.content-mihoyo p{
+	margin-top: 30px;
+}
+.content-mihoyo{
+	width: 400px;
+	height: 500px;
+	right: -60px;
+	padding: 20px;
+	border-radius: 10px 10px 10px 10px;
+	text-shadow: 4px 4px 8px black;
+	position: absolute;
+	background: rgba(0,0,0,0.39);
+}
+.gameplay{
+	height: auto;
+	position: relative;
+	color: aliceblue;
+	text-shadow: 4px 4px 8px black;
+}
+.section-2{
+	background-image: url( "../image/E0r3EsyVEAA7R49.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.box-3{
+	top: 330px;
+	right: 180px;
+	color: aliceblue;
+	font-size: 40px;
+	text-align:left;
+	position: absolute;
+}
+.box-4{
+	top: 150px;
+	right: 210px;
+	width: 400px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+}
+.content-mihoyo-2 video{
+	width: 400px;
+	margin-left: -20px;
+	margin-top: 30px;
+	border-radius: 0px 0px 10px 10px;
+}
+.content-mihoyo-2{
+	width: 400px;
+	height: 350px;
+	left: -650px;
+	padding: 20px;
+	border-radius: 10px 10px 10px 10px;
+	text-shadow: 2px 2px 5px black;
+	position: absolute;
+	background: rgba(0,0,0,0.39);
+}
+.content-mihoyo-2 h2{
+	margin-top: 10px;
+}
+.content-mihoyo-2 p{
+	margin-top: 15px;
+}
+.gallery{
+	height: auto;
+	position: relative;
+	color: aliceblue;
+	text-shadow: 4px 4px 8px black;
+}
+.gallery{
+	height: auto;
+	position: relative;
+	color: aliceblue;
+	text-shadow: 4px 4px 8px black;
+}
+.section-3{
+	background-image: url( "../image/honkai-impact-bronya-zaychik-5k-2m-1280x720.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.box-5{
+	top: 290px;
+	left: 250px;
+	font-size: 50px;
+	text-align:left;
+	position: absolute;
+}
+.box-6{
+	top: 150px;
+	right: 250px;
+	width: 400px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+}
+.content-mihoyo-3 img{
+	background-image: url("../image/2320014984.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	margin-left: -20px;
+	margin-top: -30px;
+	border-radius: 10px 10px 0px 0px;
+}
+.content-mihoyo-3 h2{
+	margin-top: 25px;
+}
+.content-mihoyo-3 p{
+	margin-top: 30px;
+}
+.content-mihoyo-3{
+	width: 400px;
+	height: 500px;
+	right: -60px;
+	padding: 20px;
+	border-radius: 10px 10px 10px 10px;
+	text-shadow: 4px 4px 8px black;
+	position: absolute;
+	background: rgba(0,0,0,0.39);
+}
+.manga{
+	height: auto;
+	position: relative;
+	color: aliceblue;
+	text-shadow: 4px 4px 8px black;
+}
+.section-4{
+	background-image: url("../image/honkai-impact-3rd-bronya-zaychik-4k-vg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 720px;
+}
+.section-4 h1{
+	text-align: center;
+	font-size: 50px;
+}
+.box-7{
+	top: 150px;
+	right: 300px;
+	width: 400px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+}
+.box-8{
+	top: 150px;
+	left: 160px;
+	width: 400px;
+	padding: 20px;
+	text-align: center;
+	position: absolute;
+}
+.content-mihoyo-4{
+	width: 400px;
+	height: 500px;
+	right: -80px;
+	padding: 20px;
+	border-radius: 10px 10px 10px 10px;
+	text-shadow: 4px 4px 8px black;
+	position: absolute;
+	background: rgba(0,0,0,0.39);
+}
+.content-mihoyo-5{
+	width: 400px;
+	height: 500px;
+	right: -60px;
+	padding: 20px;
+	border-radius: 10px 10px 10px 10px;
+	text-shadow: 4px 4px 8px black;
+	position: absolute;
+	background: rgba(0,0,0,0.39);
+}
+.content-mihoyo-4 h2{
+	margin-top: 25px;
+}
+.content-mihoyo-4 p{
+	margin-top: 30px;
+}
+.content-mihoyo-5 h2{
+	margin-top: 25px;
+}
+.content-mihoyo-5 p{
+	margin-top: 30px;
+}
+.content-mihoyo-4 img{
+	background-image: url("../image/1015.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 300px;
+	margin-left: -20px;
+	margin-top: -30px;
+	border-radius: 10px 10px 0px 0px;
+}
+.content-mihoyo-5 img{
+	background-image: url("../image/1015.jpg");
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 300px;
+	margin-left: -20px;
+	margin-top: -30px;
+	border-radius: 10px 10px 0px 0px;
+}
+.container-2{
+	background: black;
+	height: 300px;
+	position: relative;
+}
+
+.nav-02 li{
+	margin: 0 80px;
+	position: relative;
+}
+.nav-02 li a{
+	padding: 15px;
+	font-size: 15px;
+	color: aliceblue;
+	text-decoration: none;	
+	align-items: center;
+}
+.nav-02 li a{
+	padding: 5px;
+	font-size: 15px;
+	color: aliceblue;
+	margin-right: -210px;
+	text-decoration: none;	
+	position: absolute;
+}
+.row-02{
+	justify-content: center;
+	display: flex;
+	margin-right: -160px;
+}
+.HK1{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.HK2{
+	position: absolute;
+	top: 50%;
+	left: 23%;
+	justify-content: center;
+}
